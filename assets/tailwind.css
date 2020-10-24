@@ -1,5 +1,7 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /* Document
    ========================================================================== */
 
@@ -10187,6 +10189,10 @@ video {
 
 .font-sans {
   font-family: 'Nunito', sans-serif;
+}
+
+.font-stnd {
+ font-family: 'Roboto', sans-serif;
 }
 
 .font-serif {
@@ -31998,6 +32004,10 @@ video {
     font-family: 'Nunito', sans-serif;
   }
 
+  .sm\:font-stnd {
+   font-family: 'Roboto', sans-serif;
+  }
+
   .sm\:font-serif {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   }
@@ -53740,6 +53750,10 @@ video {
 
   .md\:font-sans {
     font-family: 'Nunito', sans-serif;
+  }
+
+  .md\:font-stnd {
+   font-family: 'Roboto', sans-serif;
   }
 
   .md\:font-serif {
@@ -75486,6 +75500,10 @@ video {
     font-family: 'Nunito', sans-serif;
   }
 
+  .lg\:font-stnd {
+   font-family: 'Roboto', sans-serif;
+  }
+
   .lg\:font-serif {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   }
@@ -97228,6 +97246,10 @@ video {
 
   .xl\:font-sans {
     font-family: 'Nunito', sans-serif;
+  }
+
+  .xl\font-stnd {
+   font-family: 'Roboto', sans-serif;
   }
 
   .xl\:font-serif {
