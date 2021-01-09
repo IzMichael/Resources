@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 /* Document
    ========================================================================== */
@@ -10246,6 +10248,14 @@ video {
 
 .font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-hand {
+    font-family: 'Patrick Hand', cursive;
+}
+
+.font-loop {
+    font-family: 'Sacramento', cursive;
 }
 
 .font-hairline {
@@ -32090,6 +32100,14 @@ video {
         font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     }
 
+    .sm\font-hand {
+        font-family: 'Patrick Hand', cursive;
+    }
+    
+    .sm\font-loop {
+        font-family: 'Sacramento', cursive;
+    }
+
     .sm\:font-hairline {
         font-weight: 100;
     }
@@ -53857,6 +53875,14 @@ video {
 
     .md\:font-mono {
         font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+
+    .md\font-hand {
+        font-family: 'Patrick Hand', cursive;
+    }
+    
+    .md\font-loop {
+        font-family: 'Sacramento', cursive;
     }
 
     .md\:font-hairline {
@@ -75628,6 +75654,14 @@ video {
         font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     }
 
+    .lg\font-hand {
+        font-family: 'Patrick Hand', cursive;
+    }
+    
+    .lg\font-loop {
+        font-family: 'Sacramento', cursive;
+    }
+
     .lg\:font-hairline {
         font-weight: 100;
     }
@@ -97395,6 +97429,14 @@ video {
 
     .xl\:font-mono {
         font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+
+    .xl\font-hand {
+        font-family: 'Patrick Hand', cursive;
+    }
+    
+    .xl\font-loop {
+        font-family: 'Sacramento', cursive;
     }
 
     .xl\:font-hairline {
