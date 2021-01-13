@@ -21,6 +21,14 @@ html {
     /* 2 */
 }
 
+body {
+    overscroll-behavior: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 /* Sections
    ========================================================================== */
 
