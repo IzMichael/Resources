@@ -49,3 +49,7 @@ function write(destination, message, speed, type) {
         }
     }, speed * 1000);
 }
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms * 1000));
+  }
