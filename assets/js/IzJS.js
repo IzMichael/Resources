@@ -1,4 +1,4 @@
-function splitString(string, search) {
+export function splitString(string, search) {
     let isValid = string !== '' // Disallow Empty
         &&
         typeof string === 'string' // Allow strings
@@ -33,7 +33,7 @@ function splitString(string, search) {
     return parts
 }
 
-function write(destination, message, speed, type) {
+export function write(destination, message, speed, type) {
     var i = 0;
     var interval = setInterval(function () {
         if (!type == '') {
@@ -50,6 +50,6 @@ function write(destination, message, speed, type) {
     }, speed * 1000);
 }
 
-function sleep(s) {
+export function sleep(s) {
     return new Promise(resolve => setTimeout(resolve, (s*1000)));
 }
